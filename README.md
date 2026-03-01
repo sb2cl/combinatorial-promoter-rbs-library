@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.ZENODO_RECORD_ID.svg)](https://doi.org/10.5281/zenodo.ZENODO_RECORD_ID)
+[![DOI](https://zenodo.org/badge/1170212854.svg)](https://doi.org/10.5281/zenodo.18828306)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![validate-library](https://github.com/sb2cl/combinatorial-promoter-rbs-library/actions/workflows/validate-library.yml/badge.svg)](https://github.com/sb2cl/combinatorial-promoter-rbs-library/actions/workflows/validate-library.yml)
 [![SBOL3](https://img.shields.io/badge/SBOL-3-blue.svg)](sbol/)
