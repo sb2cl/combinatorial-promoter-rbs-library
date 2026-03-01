@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:sbol="http://sbols.org/v3#"
+>
+  <rdf:Description rdf:about="https://github.com/sb2cl/combinatorial-promoter-rbs-library/component/BBa_B0030">
+    <rdf:type rdf:resource="http://sbols.org/v3#Component"/>
+    <sbol:displayId>BBa_B0030</sbol:displayId>
+    <sbol:name>BBa_B0030</sbol:name>
+    <sbol:description>Ribosome binding site (RBS).</sbol:description>
+    <sbol:type rdf:resource="http://identifiers.org/sbo/0000251"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/0000139"/>
+    <sbol:sequence rdf:resource="https://github.com/sb2cl/combinatorial-promoter-rbs-library/seq/BBa_B0030"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/sb2cl/combinatorial-promoter-rbs-library/seq/BBa_B0032">
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:displayId>seq_BBa_B0032</sbol:displayId>
+    <sbol:name>seq_BBa_B0032</sbol:name>
+    <sbol:elements>TCACACAGGAAAG</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/sb2cl/combinatorial-promoter-rbs-library/component/Terminator">
+    <rdf:type rdf:resource="http://sbols.org/v3#Component"/>
+    <sbol:displayId>Terminator</sbol:displayId>
+    <sbol:name>Terminator</sbol:name>
+    <sbol:description>Transcriptional terminator.</sbol:description>
+    <sbol:type rdf:resource="http://identifiers.org/sbo/0000251"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/0000141"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/sb2cl/combinatorial-promoter-rbs-library/component/pGreen_backbone">
+    <rdf:type rdf:resource="http://sbols.org/v3#Component"/>
+    <sbol:displayId>pGreen_backbone</sbol:displayId>
+    <sbol:name>pGreen_backbone</sbol:name>
+    <sbol:description>Plasmid backbone (pGreen).</sbol:description>
+    <sbol:type rdf:resource="http://identifiers.org/sbo/0000251"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/0000755"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/sb2cl/combinatorial-promoter-rbs-library/component/GFPmut3">
+    <rdf:type rdf:resource="http://sbols.org/v3#Component"/>
+    <sbol:displayId>GFPmut3</sbol:displayId>
+    <sbol:name>GFPmut3</sbol:name>
+    <sbol:description>Reporter coding sequence (GFPmut3).</sbol:description>
+    <sbol:type rdf:resource="http://identifiers.org/sbo/0000251"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/0000316"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/sb2cl/combinatorial-promoter-rbs-library/component/BBa_B0034">
+    <rdf:type rdf:resource="http://sbols.org/v3#Component"/>
+    <sbol:displayId>BBa_B0034</sbol:displayId>
+    <sbol:name>BBa_B0034</sbol:name>
+    <sbol:description>Ribosome binding site (RBS).</sbol:description>
+    <sbol:type rdf:resource="http://identifiers.org/sbo/0000251"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/0000139"/>
+    <sbol:sequence rdf:resource="https://github.com/sb2cl/combinatorial-promoter-rbs-library/seq/BBa_B0034"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/sb2cl/combinatorial-promoter-rbs-library/feature/pGreen/terminator">
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:displayId>pGreen_terminator</sbol:displayId>
+    <sbol:name>pGreen_terminator</sbol:name>
+    <sbol:instanceOf rdf:resource="https://github.com/sb2cl/combinatorial-promoter-rbs-library/component/Terminator"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/0000141"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/sb2cl/combinatorial-promoter-rbs-library/seq/BBa_J23100">
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:displayId>seq_BBa_J23100</sbol:displayId>
+    <sbol:name>seq_BBa_J23100</sbol:name>
+    <sbol:elements>TTGACGGCTAGCTCAGTCCTAGGTACAGTGCTAGC</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/sb2cl/combinatorial-promoter-rbs-library/component/BBa_J23101">
+    <rdf:type rdf:resource="http://sbols.org/v3#Component"/>
+    <sbol:displayId>BBa_J23101</sbol:displayId>
+    <sbol:name>BBa_J23101</sbol:name>
+    <sbol:description>Constitutive sigma70 promoter (BioBrick J231xx family).</sbol:description>
+    <sbol:type rdf:resource="http://identifiers.org/sbo/0000251"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/0000167"/>
+    <sbol:sequence rdf:resource="https://github.com/sb2cl/combinatorial-promoter-rbs-library/seq/BBa_J23101"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/sb2cl/combinatorial-promoter-rbs-library/component/BBa_J23100">
+    <rdf:type rdf:resource="http://sbols.org/v3#Component"/>
+    <sbol:displayId>BBa_J23100</sbol:displayId>
+    <sbol:name>BBa_J23100</sbol:name>
+    <sbol:description>Constitutive sigma70 promoter (BioBrick J231xx family).</sbol:description>
+    <sbol:type rdf:resource="http://identifiers.org/sbo/0000251"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/0000167"/>
+    <sbol:sequence rdf:resource="https://github.com/sb2cl/combinatorial-promoter-rbs-library/seq/BBa_J23100"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/sb2cl/combinatorial-promoter-rbs-library/component/BBa_J61100">
+    <rdf:type rdf:resource="http://sbols.org/v3#Component"/>
+    <sbol:displayId>BBa_J61100</sbol:displayId>
+    <sbol:name>BBa_J61100</sbol:name>
+    <sbol:description>Ribosome binding site (RBS).</sbol:description>
+    <sbol:type rdf:resource="http://identifiers.org/sbo/0000251"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/0000139"/>
+    <sbol:sequence rdf:resource="https://github.com/sb2cl/combinatorial-promoter-rbs-library/seq/BBa_J61100"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/sb2cl/combinatorial-promoter-rbs-library/variable/pGreen/rbs">
+    <rdf:type rdf:resource="http://sbols.org/v3#VariableComponent"/>
+    <sbol:displayId>pGreen_var_rbs</sbol:displayId>
+    <sbol:variable rdf:resource="https://github.com/sb2cl/combinatorial-promoter-rbs-library/feature/pGreen/rbs"/>
+    <sbol:variant rdf:resource="https://github.com/sb2cl/combinatorial-promoter-rbs-library/component/BBa_B0030"/>
+    <sbol:variant rdf:resource="https://github.com/sb2cl/combinatorial-promoter-rbs-library/component/BBa_B0032"/>
+    <sbol:variant rdf:resource="https://github.com/sb2cl/combinatorial-promoter-rbs-library/component/BBa_B0034"/>
+    <sbol:variant rdf:resource="https://github.com/sb2cl/combinatorial-promoter-rbs-library/component/BBa_J61100"/>
+    <sbol:variant rdf:resource="https://github.com/sb2cl/combinatorial-promoter-rbs-library/component/BBa_J61101"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/sb2cl/combinatorial-promoter-rbs-library/seq/BBa_J23101">
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:displayId>seq_BBa_J23101</sbol:displayId>
+    <sbol:name>seq_BBa_J23101</sbol:name>
+    <sbol:elements>TTTACAGCTAGCTCAGTCCTAGGTATTATGCTAGC</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/sb2cl/combinatorial-promoter-rbs-library/component/ExpressionCassette_pGreen">
+    <rdf:type rdf:resource="http://sbols.org/v3#Component"/>
+    <sbol:displayId>ExpressionCassette_pGreen</sbol:displayId>
+    <sbol:name>ExpressionCassette_pGreen</sbol:name>
+    <sbol:description>Template construct in pGreen backbone.</sbol:description>
+    <sbol:type rdf:resource="http://identifiers.org/sbo/0000251"/>
+    <sbol:feature rdf:resource="https://github.com/sb2cl/combinatorial-promoter-rbs-library/feature/pGreen/promoter"/>
+    <sbol:feature rdf:resource="https://github.com/sb2cl/combinatorial-promoter-rbs-library/feature/pGreen/rbs"/>
+    <sbol:feature rdf:resource="https://github.com/sb2cl/combinatorial-promoter-rbs-library/feature/pGreen/gfp"/>
+    <sbol:feature rdf:resource="https://github.com/sb2cl/combinatorial-promoter-rbs-library/feature/pGreen/terminator"/>
+    <sbol:feature rdf:resource="https://github.com/sb2cl/combinatorial-promoter-rbs-library/feature/pGreen/backbone"/>
+    <sbol:constraint rdf:resource="https://github.com/sb2cl/combinatorial-promoter-rbs-library/constraint/pGreen/p_precedes_r"/>
+    <sbol:constraint rdf:resource="https://github.com/sb2cl/combinatorial-promoter-rbs-library/constraint/pGreen/r_precedes_g"/>
+    <sbol:constraint rdf:resource="https://github.com/sb2cl/combinatorial-promoter-rbs-library/constraint/pGreen/g_precedes_t"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/sb2cl/combinatorial-promoter-rbs-library/constraint/pGreen/r_precedes_g">
+    <rdf:type rdf:resource="http://sbols.org/v3#SequenceConstraint"/>
+    <sbol:displayId>pGreen_r_before_g</sbol:displayId>
+    <sbol:subject rdf:resource="https://github.com/sb2cl/combinatorial-promoter-rbs-library/feature/pGreen/rbs"/>
+    <sbol:object rdf:resource="https://github.com/sb2cl/combinatorial-promoter-rbs-library/feature/pGreen/gfp"/>
+    <sbol:restriction rdf:resource="http://sbols.org/v3#precedes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/sb2cl/combinatorial-promoter-rbs-library/feature/pGreen/backbone">
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:displayId>pGreen_backbone_sc</sbol:displayId>
+    <sbol:name>pGreen_backbone_sc</sbol:name>
+    <sbol:instanceOf rdf:resource="https://github.com/sb2cl/combinatorial-promoter-rbs-library/component/pGreen_backbone"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/0000755"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/sb2cl/combinatorial-promoter-rbs-library/variable/pGreen/promoter">
+    <rdf:type rdf:resource="http://sbols.org/v3#VariableComponent"/>
+    <sbol:displayId>pGreen_var_promoter</sbol:displayId>
+    <sbol:variable rdf:resource="https://github.com/sb2cl/combinatorial-promoter-rbs-library/feature/pGreen/promoter"/>
+    <sbol:variant rdf:resource="https://github.com/sb2cl/combinatorial-promoter-rbs-library/component/BBa_J23100"/>
+    <sbol:variant rdf:resource="https://github.com/sb2cl/combinatorial-promoter-rbs-library/component/BBa_J23101"/>
+    <sbol:variant rdf:resource="https://github.com/sb2cl/combinatorial-promoter-rbs-library/component/BBa_J23102"/>
+    <sbol:variant rdf:resource="https://github.com/sb2cl/combinatorial-promoter-rbs-library/component/BBa_J23106"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/sb2cl/combinatorial-promoter-rbs-library/component/BBa_J23106">
+    <rdf:type rdf:resource="http://sbols.org/v3#Component"/>
+    <sbol:displayId>BBa_J23106</sbol:displayId>
+    <sbol:name>BBa_J23106</sbol:name>
+    <sbol:description>Constitutive sigma70 promoter (BioBrick J231xx family).</sbol:description>
+    <sbol:type rdf:resource="http://identifiers.org/sbo/0000251"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/0000167"/>
+    <sbol:sequence rdf:resource="https://github.com/sb2cl/combinatorial-promoter-rbs-library/seq/BBa_J23106"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/sb2cl/combinatorial-promoter-rbs-library/seq/BBa_B0034">
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:displayId>seq_BBa_B0034</sbol:displayId>
+    <sbol:name>seq_BBa_B0034</sbol:name>
+    <sbol:elements>AAAGAGGAGAAA</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/sb2cl/combinatorial-promoter-rbs-library/constraint/pGreen/g_precedes_t">
+    <rdf:type rdf:resource="http://sbols.org/v3#SequenceConstraint"/>
+    <sbol:displayId>pGreen_g_before_t</sbol:displayId>
+    <sbol:subject rdf:resource="https://github.com/sb2cl/combinatorial-promoter-rbs-library/feature/pGreen/gfp"/>
+    <sbol:object rdf:resource="https://github.com/sb2cl/combinatorial-promoter-rbs-library/feature/pGreen/terminator"/>
+    <sbol:restriction rdf:resource="http://sbols.org/v3#precedes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/sb2cl/combinatorial-promoter-rbs-library/derivation/Library_pGreen">
+    <rdf:type rdf:resource="http://sbols.org/v3#CombinatorialDerivation"/>
+    <sbol:displayId>Library_pGreen</sbol:displayId>
+    <sbol:name>Library_pGreen</sbol:name>
+    <sbol:description>Combinatorial promoter×RBS library encoded as SBOL3.</sbol:description>
+    <sbol:template rdf:resource="https://github.com/sb2cl/combinatorial-promoter-rbs-library/component/ExpressionCassette_pGreen"/>
+    <sbol:strategy rdf:resource="http://sbols.org/v3#enumerate"/>
+    <sbol:variableComponent rdf:resource="https://github.com/sb2cl/combinatorial-promoter-rbs-library/variable/pGreen/promoter"/>
+    <sbol:variableComponent rdf:resource="https://github.com/sb2cl/combinatorial-promoter-rbs-library/variable/pGreen/rbs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/sb2cl/combinatorial-promoter-rbs-library/component/BBa_J23102">
+    <rdf:type rdf:resource="http://sbols.org/v3#Component"/>
+    <sbol:displayId>BBa_J23102</sbol:displayId>
+    <sbol:name>BBa_J23102</sbol:name>
+    <sbol:description>Constitutive sigma70 promoter (BioBrick J231xx family).</sbol:description>
+    <sbol:type rdf:resource="http://identifiers.org/sbo/0000251"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/0000167"/>
+    <sbol:sequence rdf:resource="https://github.com/sb2cl/combinatorial-promoter-rbs-library/seq/BBa_J23102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/sb2cl/combinatorial-promoter-rbs-library/constraint/pGreen/p_precedes_r">
+    <rdf:type rdf:resource="http://sbols.org/v3#SequenceConstraint"/>
+    <sbol:displayId>pGreen_p_before_r</sbol:displayId>
+    <sbol:subject rdf:resource="https://github.com/sb2cl/combinatorial-promoter-rbs-library/feature/pGreen/promoter"/>
+    <sbol:object rdf:resource="https://github.com/sb2cl/combinatorial-promoter-rbs-library/feature/pGreen/rbs"/>
+    <sbol:restriction rdf:resource="http://sbols.org/v3#precedes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/sb2cl/combinatorial-promoter-rbs-library/seq/BBa_J61101">
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:displayId>seq_BBa_J61101</sbol:displayId>
+    <sbol:name>seq_BBa_J61101</sbol:name>
+    <sbol:elements>AAAGACAGGACC</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/sb2cl/combinatorial-promoter-rbs-library/component/BBa_J61101">
+    <rdf:type rdf:resource="http://sbols.org/v3#Component"/>
+    <sbol:displayId>BBa_J61101</sbol:displayId>
+    <sbol:name>BBa_J61101</sbol:name>
+    <sbol:description>Ribosome binding site (RBS).</sbol:description>
+    <sbol:type rdf:resource="http://identifiers.org/sbo/0000251"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/0000139"/>
+    <sbol:sequence rdf:resource="https://github.com/sb2cl/combinatorial-promoter-rbs-library/seq/BBa_J61101"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/sb2cl/combinatorial-promoter-rbs-library/feature/pGreen/gfp">
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:displayId>pGreen_gfp</sbol:displayId>
+    <sbol:name>pGreen_gfp</sbol:name>
+    <sbol:instanceOf rdf:resource="https://github.com/sb2cl/combinatorial-promoter-rbs-library/component/GFPmut3"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/0000316"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/sb2cl/combinatorial-promoter-rbs-library/feature/pGreen/rbs">
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:displayId>pGreen_rbs</sbol:displayId>
+    <sbol:name>pGreen_rbs</sbol:name>
+    <sbol:instanceOf rdf:resource="https://github.com/sb2cl/combinatorial-promoter-rbs-library/component/BBa_B0030"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/0000139"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/sb2cl/combinatorial-promoter-rbs-library/seq/BBa_J23106">
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:displayId>seq_BBa_J23106</sbol:displayId>
+    <sbol:name>seq_BBa_J23106</sbol:name>
+    <sbol:elements>TTTACGGCTAGCTCAGTCCTAGGTATAGTGCTAGC</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/sb2cl/combinatorial-promoter-rbs-library/seq/BBa_J61100">
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:displayId>seq_BBa_J61100</sbol:displayId>
+    <sbol:name>seq_BBa_J61100</sbol:name>
+    <sbol:elements>GAAAGAGGGGACAA</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/sb2cl/combinatorial-promoter-rbs-library/component/BBa_B0032">
+    <rdf:type rdf:resource="http://sbols.org/v3#Component"/>
+    <sbol:displayId>BBa_B0032</sbol:displayId>
+    <sbol:name>BBa_B0032</sbol:name>
+    <sbol:description>Ribosome binding site (RBS).</sbol:description>
+    <sbol:type rdf:resource="http://identifiers.org/sbo/0000251"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/0000139"/>
+    <sbol:sequence rdf:resource="https://github.com/sb2cl/combinatorial-promoter-rbs-library/seq/BBa_B0032"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/sb2cl/combinatorial-promoter-rbs-library/pGreen/">
+    <rdf:type rdf:resource="http://sbols.org/v3#Document"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+    <dcterms:title>pIAKA combinatorial library (pGreen) - SBOL3</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/sb2cl/combinatorial-promoter-rbs-library/feature/pGreen/promoter">
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:displayId>pGreen_promoter</sbol:displayId>
+    <sbol:name>pGreen_promoter</sbol:name>
+    <sbol:instanceOf rdf:resource="https://github.com/sb2cl/combinatorial-promoter-rbs-library/component/BBa_J23100"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/0000167"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/sb2cl/combinatorial-promoter-rbs-library/seq/BBa_B0030">
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:displayId>seq_BBa_B0030</sbol:displayId>
+    <sbol:name>seq_BBa_B0030</sbol:name>
+    <sbol:elements>ATTAAAGAGGAGAAA</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/sb2cl/combinatorial-promoter-rbs-library/seq/BBa_J23102">
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:displayId>seq_BBa_J23102</sbol:displayId>
+    <sbol:name>seq_BBa_J23102</sbol:name>
+    <sbol:elements>TTGACAGCTAGCTCAGTCCTAGGTACTGTGCTAGC</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </rdf:Description>
+</rdf:RDF>

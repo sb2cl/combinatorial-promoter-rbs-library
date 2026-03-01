@@ -1,0 +1,25 @@
+{
+  "title": "Combinatorial Promoter\u2013RBS Expression Library (SBOL3 and GenBank)",
+  "upload_type": "dataset",
+  "description": "Fully annotated GenBank sequences and formal SBOL3 combinatorial specification of a promoter\u2013RBS expression library constructed in pSC101 and pGreen backbones. Includes reproducibility scripts and machine-readable metadata.",
+  "creators": [
+    {
+      "name": "Vignoni, Alejandro",
+      "affiliation": "Universitat Polit\u00e8cnica de Val\u00e8ncia (SB2CL)"
+    },
+    {
+      "name": "Boada, Yadira",
+      "affiliation": "Universitat Polit\u00e8cnica de Val\u00e8ncia (SB2CL)"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "synthetic biology",
+    "promoter library",
+    "ribosome binding site",
+    "SBOL3",
+    "combinatorial design",
+    "genbank"
+  ],
+  "access_right": "open"
+}

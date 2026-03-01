@@ -2,7 +2,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![validate-library](https://github.com/sb2cl/combinatorial-promoter-rbs-library/actions/workflows/validate-library.yml/badge.svg)](https://github.com/sb2cl/combinatorial-promoter-rbs-library/actions/workflows/validate-library.yml)
 [![SBOL3](https://img.shields.io/badge/SBOL-3-blue.svg)](sbol/)
-
 # Combinatorial promoter–RBS library
 
 This repository contains:
@@ -36,4 +35,3 @@ python scripts/make_sbol_library.py --base-uri "https://<your-namespace>/" --tab
 ```
 
 The GitHub Action `.github/workflows/validate-library.yml` runs these checks automatically on every push/PR.
-
